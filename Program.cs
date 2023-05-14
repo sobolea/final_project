@@ -22,3 +22,9 @@ for( int i = 0; i < a; i++)
     k++;
     }
 }
+
+for( int j = 0; j < a; j++)
+{
+    if (newArray[j] != "") Console.Write($"{newArray[j]}, ");
+    else break;
+}
