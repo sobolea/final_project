@@ -23,8 +23,4 @@ for( int i = 0; i < a; i++)
     }
 }
 
-for( int j = 0; j < a; j++)
-{
-    if (newArray[j] != "") Console.Write($"{newArray[j]}, ");
-    else break;
-}
+Console.WriteLine(string.Join( " ", newArray));
