@@ -12,3 +12,13 @@ for( int i = 0; i < a; i++) Console.Write($"{array[i]}, ");
 Console.WriteLine();
 
 string[] newArray = new string[a];
+
+int k = 0;
+for( int i = 0; i < a; i++)
+{
+    if (array[i].Length < 4)
+    {
+    newArray[k] = array[i];
+    k++;
+    }
+}
